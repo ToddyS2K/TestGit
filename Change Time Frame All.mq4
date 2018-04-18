@@ -55,6 +55,7 @@ int start()
    }
    
    // Now do the current window
+   // Add comment
    PostMessageA( intParent, WM_COMMAND, intCmd, 0 );
 }
 
